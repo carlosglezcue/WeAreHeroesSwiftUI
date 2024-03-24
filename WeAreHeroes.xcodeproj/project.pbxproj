@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		4F7B6E142BB088AB00395FE2 /* WeAreHeroesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E132BB088AB00395FE2 /* WeAreHeroesApp.swift */; };
-		4F7B6E162BB088AB00395FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E152BB088AB00395FE2 /* ContentView.swift */; };
+		4F7B6E162BB088AB00395FE2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E152BB088AB00395FE2 /* MainView.swift */; };
 		4F7B6E182BB088AD00395FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B6E172BB088AD00395FE2 /* Assets.xcassets */; };
 		4F7B6E1B2BB088AD00395FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B6E1A2BB088AD00395FE2 /* Preview Assets.xcassets */; };
+		4F7B6E282BB08A1A00395FE2 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B6E272BB08A1A00395FE2 /* SuperHeroes.json */; };
+		4F7B6E2A2BB08C5800395FE2 /* SuperHeoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E292BB08C5800395FE2 /* SuperHeoreModel.swift */; };
+		4F7B6E2D2BB08C9F00395FE2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E2C2BB08C9F00395FE2 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F7B6E102BB088AB00395FE2 /* WeAreHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeAreHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7B6E132BB088AB00395FE2 /* WeAreHeroesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAreHeroesApp.swift; sourceTree = "<group>"; };
-		4F7B6E152BB088AB00395FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F7B6E152BB088AB00395FE2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4F7B6E172BB088AD00395FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7B6E1A2BB088AD00395FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7B6E272BB08A1A00395FE2 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		4F7B6E292BB08C5800395FE2 /* SuperHeoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeoreModel.swift; sourceTree = "<group>"; };
+		4F7B6E2C2BB08C9F00395FE2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				4F7B6E132BB088AB00395FE2 /* WeAreHeroesApp.swift */,
-				4F7B6E152BB088AB00395FE2 /* ContentView.swift */,
-				4F7B6E172BB088AD00395FE2 /* Assets.xcassets */,
+				4F7B6E2B2BB08C6500395FE2 /* Views */,
+				4F7B6E252BB08A0700395FE2 /* Model */,
+				4F7B6E262BB08A0D00395FE2 /* Resources */,
 				4F7B6E192BB088AD00395FE2 /* Preview Content */,
 			);
 			path = WeAreHeroes;
@@ -63,8 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				4F7B6E1A2BB088AD00395FE2 /* Preview Assets.xcassets */,
+				4F7B6E2C2BB08C9F00395FE2 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7B6E252BB08A0700395FE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F7B6E292BB08C5800395FE2 /* SuperHeoreModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F7B6E262BB08A0D00395FE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F7B6E172BB088AD00395FE2 /* Assets.xcassets */,
+				4F7B6E272BB08A1A00395FE2 /* SuperHeroes.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F7B6E2B2BB08C6500395FE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F7B6E152BB088AB00395FE2 /* MainView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7B6E282BB08A1A00395FE2 /* SuperHeroes.json in Resources */,
 				4F7B6E1B2BB088AD00395FE2 /* Preview Assets.xcassets in Resources */,
 				4F7B6E182BB088AD00395FE2 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F7B6E162BB088AB00395FE2 /* ContentView.swift in Sources */,
+				4F7B6E2D2BB08C9F00395FE2 /* PreviewData.swift in Sources */,
+				4F7B6E162BB088AB00395FE2 /* MainView.swift in Sources */,
+				4F7B6E2A2BB08C5800395FE2 /* SuperHeoreModel.swift in Sources */,
 				4F7B6E142BB088AB00395FE2 /* WeAreHeroesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
