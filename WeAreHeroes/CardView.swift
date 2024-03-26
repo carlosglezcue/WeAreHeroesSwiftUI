@@ -17,12 +17,12 @@ struct CardView: View {
                 .resizable()
                 .scaledToFit()
                 .clipShape(Circle())
-                .frame(width: 100, height: 100)
             
             VStack(spacing: 10) {
                 Text(heroe.nombreReal)
                     .font(.body)
                     .bold()
+                    .multilineTextAlignment(.center)
                 Text(heroe.apodo)
                     .font(.caption2)
                     .foregroundStyle(.secondary)

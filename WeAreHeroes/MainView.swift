@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     
     let superHeroe = getSuperHeores()
-    let fixedItems: [GridItem] = [GridItem(.fixed(115)), GridItem(.fixed(115))]
+    let fixedItems: [GridItem] = [GridItem(.fixed(180)), GridItem(.fixed(180))]
     
     var body: some View {
         NavigationStack {
