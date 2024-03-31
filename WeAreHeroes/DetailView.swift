@@ -9,6 +9,8 @@ import SwiftUI
 
 struct DetailView: View {
     
+    @Environment(\.dismiss) private var dismiss
+    
     let heroe: SuperHeroe
     
     var body: some View {
@@ -19,7 +21,7 @@ struct DetailView: View {
                     .scaledToFit()
                     .clipShape(Circle())
                     .shadow(color: .black.opacity(0.4), radius: 5, x: 0, y: 5)
-                    .padding()
+                    .frame(height: 300)
                 
                 Text(heroe.apodo)
                     .font(.title3)
@@ -36,26 +38,7 @@ struct DetailView: View {
                     Text(String(heroe.edad))
                         .font(.body)
                 }
-                Text("Descripción:")
-                    .underline()
-                    .font(.caption)
-                    .bold()
-                    .foregroundStyle(.orange)
-                
-                Text(heroe.descripcion == nil ? heroe.historia ?? "" : heroe.descripcion ?? "")
-                    .font(.body)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal)
-                
-                Text("Poderes disponibles:")
-                    .underline()
-                    .font(.caption)
-                    .bold()
-                    .foregroundStyle(.orange)
-                
-                Text(heroe.powerList)
-                    .font(.body)
-                    .multilineTextAlignment(.center)
+                DescriptionCardView(heroe: heroe)
                     .padding(.horizontal)
             }
         }
@@ -63,9 +46,24 @@ struct DetailView: View {
         .scrollBounceBehavior(.basedOnSize)
         .navigationTitle(heroe.nombreReal)
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    dismiss()
+                } label: {
+                    Image(systemName: "chevron.left")
+                }
+                .buttonStyle(.borderedProminent)
+                .buttonBorderShape(.circle)
+                .tint(.yellow)
+            }
+        }
     }
 }
 
 #Preview {
     DetailView(heroe: .test)
 }
+
+

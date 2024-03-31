@@ -11,7 +11,7 @@ import SwiftUI
 struct WeAreHeroesApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            SuperHeroesTabView()
         }
     }
 }

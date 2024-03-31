@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3F40662BB944CB00EF945E /* DescriptionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F40652BB944CB00EF945E /* DescriptionCardView.swift */; };
+		4F3F40692BB945B500EF945E /* SuperHeroesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F40682BB945B500EF945E /* SuperHeroesTabView.swift */; };
+		4F3F406B2BB946B800EF945E /* ListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F406A2BB946B800EF945E /* ListMainView.swift */; };
+		4F3F406D2BB946D200EF945E /* HorizontalMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F406C2BB946D200EF945E /* HorizontalMainView.swift */; };
+		4F3F406F2BB948C000EF945E /* CellListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F406E2BB948C000EF945E /* CellListView.swift */; };
 		4F68EF5F2BB1F8C000425774 /* Powers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68EF5E2BB1F8C000425774 /* Powers.swift */; };
 		4F68EF612BB1FA6200425774 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68EF602BB1FA6200425774 /* DetailView.swift */; };
 		4F68EF642BB1FEBB00425774 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68EF632BB1FEBB00425774 /* CardView.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F3F40652BB944CB00EF945E /* DescriptionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCardView.swift; sourceTree = "<group>"; };
+		4F3F40682BB945B500EF945E /* SuperHeroesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesTabView.swift; sourceTree = "<group>"; };
+		4F3F406A2BB946B800EF945E /* ListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMainView.swift; sourceTree = "<group>"; };
+		4F3F406C2BB946D200EF945E /* HorizontalMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMainView.swift; sourceTree = "<group>"; };
+		4F3F406E2BB948C000EF945E /* CellListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellListView.swift; sourceTree = "<group>"; };
 		4F68EF5E2BB1F8C000425774 /* Powers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powers.swift; sourceTree = "<group>"; };
 		4F68EF602BB1FA6200425774 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		4F68EF632BB1FEBB00425774 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -57,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				4F68EF632BB1FEBB00425774 /* CardView.swift */,
+				4F3F40652BB944CB00EF945E /* DescriptionCardView.swift */,
+				4F3F406E2BB948C000EF945E /* CellListView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -121,6 +133,9 @@
 			children = (
 				4F7B6E152BB088AB00395FE2 /* MainView.swift */,
 				4F68EF602BB1FA6200425774 /* DetailView.swift */,
+				4F3F40682BB945B500EF945E /* SuperHeroesTabView.swift */,
+				4F3F406A2BB946B800EF945E /* ListMainView.swift */,
+				4F3F406C2BB946D200EF945E /* HorizontalMainView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -196,11 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3F406F2BB948C000EF945E /* CellListView.swift in Sources */,
 				4F68EF642BB1FEBB00425774 /* CardView.swift in Sources */,
+				4F3F40692BB945B500EF945E /* SuperHeroesTabView.swift in Sources */,
 				4F7B6E2D2BB08C9F00395FE2 /* PreviewData.swift in Sources */,
 				4F68EF612BB1FA6200425774 /* DetailView.swift in Sources */,
 				4F7B6E162BB088AB00395FE2 /* MainView.swift in Sources */,
 				4F68EF5F2BB1F8C000425774 /* Powers.swift in Sources */,
+				4F3F406D2BB946D200EF945E /* HorizontalMainView.swift in Sources */,
+				4F3F40662BB944CB00EF945E /* DescriptionCardView.swift in Sources */,
+				4F3F406B2BB946B800EF945E /* ListMainView.swift in Sources */,
 				4F7B6E2A2BB08C5800395FE2 /* SuperHeoreModel.swift in Sources */,
 				4F7B6E142BB088AB00395FE2 /* WeAreHeroesApp.swift in Sources */,
 			);
