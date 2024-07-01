@@ -57,20 +57,19 @@
 		4F68EF5D2BB1F8A500425774 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4F68EF622BB1FA6C00425774 /* View */,
 				4F68EF5E2BB1F8C000425774 /* Powers.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
 		};
-		4F68EF622BB1FA6C00425774 /* View */ = {
+		4F68EF622BB1FA6C00425774 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				4F68EF632BB1FEBB00425774 /* CardView.swift */,
 				4F3F40652BB944CB00EF945E /* DescriptionCardView.swift */,
 				4F3F406E2BB948C000EF945E /* CellListView.swift */,
 			);
-			name = View;
+			name = Components;
 			sourceTree = "<group>";
 		};
 		4F7B6E072BB088AB00395FE2 = {
@@ -92,8 +91,8 @@
 		4F7B6E122BB088AB00395FE2 /* WeAreHeroes */ = {
 			isa = PBXGroup;
 			children = (
-				4F68EF5D2BB1F8A500425774 /* Common */,
 				4F7B6E132BB088AB00395FE2 /* WeAreHeroesApp.swift */,
+				4F68EF5D2BB1F8A500425774 /* Common */,
 				4F7B6E2B2BB08C6500395FE2 /* Views */,
 				4F7B6E252BB08A0700395FE2 /* Model */,
 				4F7B6E262BB08A0D00395FE2 /* Resources */,
@@ -131,6 +130,7 @@
 		4F7B6E2B2BB08C6500395FE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4F68EF622BB1FA6C00425774 /* Components */,
 				4F7B6E152BB088AB00395FE2 /* MainView.swift */,
 				4F68EF602BB1FA6200425774 /* DetailView.swift */,
 				4F3F40682BB945B500EF945E /* SuperHeroesTabView.swift */,
