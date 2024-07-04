@@ -22,6 +22,7 @@
 		4F7B6E282BB08A1A00395FE2 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F7B6E272BB08A1A00395FE2 /* SuperHeroes.json */; };
 		4F7B6E2A2BB08C5800395FE2 /* SuperHeoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E292BB08C5800395FE2 /* SuperHeoreModel.swift */; };
 		4F7B6E2D2BB08C9F00395FE2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B6E2C2BB08C9F00395FE2 /* PreviewData.swift */; };
+		4F8125302C36F24600398CEC /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81252F2C36F24600398CEC /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		4F7B6E272BB08A1A00395FE2 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
 		4F7B6E292BB08C5800395FE2 /* SuperHeoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeoreModel.swift; sourceTree = "<group>"; };
 		4F7B6E2C2BB08C9F00395FE2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		4F81252F2C36F24600398CEC /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				4F3F40682BB945B500EF945E /* SuperHeroesTabView.swift */,
 				4F3F406A2BB946B800EF945E /* ListMainView.swift */,
 				4F3F406C2BB946D200EF945E /* HorizontalMainView.swift */,
+				4F81252F2C36F24600398CEC /* SplashScreenView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3F406F2BB948C000EF945E /* CellListView.swift in Sources */,
+				4F8125302C36F24600398CEC /* SplashScreenView.swift in Sources */,
 				4F68EF642BB1FEBB00425774 /* CardView.swift in Sources */,
 				4F3F40692BB945B500EF945E /* SuperHeroesTabView.swift in Sources */,
 				4F7B6E2D2BB08C9F00395FE2 /* PreviewData.swift in Sources */,
