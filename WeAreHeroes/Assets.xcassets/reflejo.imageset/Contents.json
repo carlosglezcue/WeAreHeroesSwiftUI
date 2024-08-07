@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "reflejo.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
